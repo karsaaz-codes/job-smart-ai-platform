@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -75,7 +74,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground transition-colors duration-300 font-sans;
     font-family: 'Inter', sans-serif;
   }
 
@@ -84,7 +83,6 @@
   }
 }
 
-/* Custom classes */
 @layer components {
   .hero-text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-worklink-700 to-worklink-500;
