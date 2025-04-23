@@ -19,7 +19,7 @@ const initialPosts = [
   {
     id: '2',
     author: { id: '102', name: 'Alex Johnson' },
-    content: 'Excited to share that I've accepted a position as Senior Developer at TechCorp! Thanks to everyone who supported me during my job search. The WorkLink AI cover letter generator was a game-changer!',
+    content: "Excited to share that I've accepted a position as Senior Developer at TechCorp! Thanks to everyone who supported me during my job search. The WorkLink AI cover letter generator was a game-changer!",
     imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=400',
     likes: 47,
     comments: 23,
